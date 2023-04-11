@@ -1,0 +1,72 @@
+.section-title {
+  padding-bottom: 40px;
+}
+.text-center {
+  text-align: center;
+}
+
+.section-title h3 {
+  color: #1c1d24;
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  position: relative;
+  line-height: 1.2;
+}
+
+.section-title h3::after {
+  background-color: #dc965a;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 3px;
+  margin: auto;
+}
+.section-title p {
+  font-size: 17px;
+  margin: 0;
+}
+
+/* feature-box */
+.feature-box {
+  background: #fff;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 15% 12%;
+  position: relative;
+  z-index: 1;
+}
+.feature-box::after {
+  background: #dc965a;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+  height: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.feature-box .icon {
+  color: #dc965a;
+  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.feature-box h5 {
+  color: #1c1d24;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+.feature-box p {
+  margin: 0;
+  transition: 0.5s ease-in-out;
+}

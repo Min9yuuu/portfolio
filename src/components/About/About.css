@@ -1,0 +1,110 @@
+#about::after {
+  content: "";
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+  background: #dc965a;
+}
+
+.about .container {
+  position: relative;
+  z-index: 1;
+}
+
+#about .image-box {
+  background-color: #fff;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.image-box > img {
+  max-width: 100%;
+}
+
+.text-box {
+  padding-left: 40px;
+}
+
+.text-box > h3 {
+  color: #1c1d24;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.text-box > h5 {
+  color: #1c1d24;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.text-box > h5 > span {
+  color: #dc965a;
+}
+
+.about-list {
+  padding: 10px 0 15px;
+}
+
+.about-list .media {
+  padding: 10px 0;
+  line-height: normal;
+}
+
+.media {
+  display: flex !important;
+  align-items: flex-start;
+}
+
+.about-list .media label {
+  border-right: 1px solid #c1c1c1;
+  color: #090a0c;
+  flex: 0 0 90px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  max-width: 90px;
+}
+.about-list .media p {
+  font-size: 15px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+.btn-bar {
+  padding-top: 12px;
+}
+.px-btn-theme {
+  background-color: #dc965a;
+  color: #fff;
+}
+.px-btn {
+  border: none;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  cursor: pointer !important;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 46px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  padding: 0 25px;
+  z-index: 1;
+}
+.px-btn::after {
+  background-color: #1c1d24;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: auto;
+  transition: all 0.35s ease;
+  width: 0;
+  z-index: -1;
+}
