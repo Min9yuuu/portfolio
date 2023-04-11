@@ -8,9 +8,7 @@ function About() {
       <div className='container'>
         <div className='row align-items-center justify-content-center'>
           <div className='col-lg-6 my-3'>
-            <div className='image-box'>
-              <img src='image/about-1.jpg' alt='girl' />
-            </div>
+            <div className='image-box'></div>
           </div>
           <div className='col-lg-6 my-3'>
             <div className='text-box'>

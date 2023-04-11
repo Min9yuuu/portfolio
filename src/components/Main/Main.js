@@ -4,13 +4,7 @@ import React, { useRef, useState } from "react";
 import "./Main.css";
 function Main() {
   return (
-    <section
-      id='main'
-      className='home-banner overlay'
-      style={{
-        backgroundImage: `url("https://krozo.ibthemespro.com/img/banner/bg-2.jpg")`,
-      }}
-    >
+    <section id='main' className='home-banner overlay'>
       <div className='top-style'>
         <img src='image/home_item01.png' />
       </div>
